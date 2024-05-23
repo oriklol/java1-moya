@@ -23,25 +23,56 @@ public class Ejercicio5 {
 			
 			switch(opcion) {
 			case '1':
-				
+				System.out.print("Ingrese el primer numero: ");
+        			double num1 = scan.nextDouble();
+        			System.out.print("Ingrese el segundo numero: ");
+        			double num2 = scan.nextDouble();
+        			double resultado = 0;
+        			resultado = num1 + num2;
+				System.out.println("Resultado: " + resultado);
+				num1= 0;
+				num2= 0;
 				repetir = true;
 				break;
 			case '2':
-				
+				System.out.print("Ingrese el primer numero: ");
+        			double num1 = scan.nextDouble();
+        			System.out.print("Ingrese el segundo numero: ");
+        			double num2 = scan.nextDouble();
+        			double resultado = 0;
+        			resultado = num1 - num2;
+				System.out.println("Resultado: " + resultado);
+				num1= 0;
+				num2= 0;
 				repetir = true;
 				break;
 			case '3':
-				
+				System.out.print("Ingrese el primer numero: ");
+        			double num1 = scan.nextDouble();
+        			System.out.print("Ingrese el segundo numero: ");
+        			double num2 = scan.nextDouble();
+        			double resultado = 0;
+        			resultado = num1 * num2;
+				System.out.println("Resultado: " + resultado);
+				num1= 0;
+				num2= 0;
 				repetir = true;
 				break;
 			case '4':
-				
+				System.out.print("Ingrese el primer numero: ");
+        			double num1 = scan.nextDouble();
+        			System.out.print("Ingrese el segundo numero: ");
+        			double num2 = scan.nextDouble();
+        			double resultado = 0;
+        			resultado = num1 / num2;
+				System.out.println("Resultado: " + resultado);
+				num1= 0;
+				num2= 0;
 				repetir = true;
 				break;
 			case '5':
 				System.out.println("\nSaliendo del programa....\n");
 				break;
-			
 			default:
 				System.out.println("\nIngrese una opcion valida\n");
 				repetir = true;
